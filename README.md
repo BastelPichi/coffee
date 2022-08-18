@@ -1,1 +1,1 @@
-Code to control a coffe machine with a servo.
+Code to control a coffe machine with a servo from a website.
