@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Cofffe machine</title>
+        <style>
+            body {
+                text-align: center;
+                font-family: Calibri;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Control the coffeemachine!</h2>
+        <p>The coffeemachine is currently {{status}}.</p>
+        <p>There were already made {{made}} coffees.</p>
+        <form method="POST" action="/machine">
+            <button type="submit" name="onoffbutton" value="onbutton">Turn On</button>
+            <button type="submit" name="onoffbutton" value="offbutton">Turn Off</button>
+        </form>
+        <img src="https://s4.gifyu.com/images/coffe.gif?date={{date}}">
+    </body>
+</html>
